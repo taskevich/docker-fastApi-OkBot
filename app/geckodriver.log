@@ -1,0 +1,600 @@
+1669104235409	geckodriver	INFO	Listening on 127.0.0.1:51821
+1669104235948	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44383" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileCUSdrv"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669104236298	Marionette	INFO	Marionette enabled
+1669104236301	Marionette	INFO	Listening on port 38325
+Read port: 38325
+WebDriver BiDi listening on ws://127.0.0.1:44383
+1669104236406	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCUSdrv/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44383/devtools/browser/20cb4cb4-cf8d-42be-9c7e-4b9543b9927f
+1669104238991	Marionette	INFO	Stopped listening on port 38325
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669104259415	geckodriver	INFO	Listening on 127.0.0.1:43109
+1669104259974	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47463" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXJXsCn"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669104260350	Marionette	INFO	Marionette enabled
+1669104260352	Marionette	INFO	Listening on port 35459
+Read port: 35459
+WebDriver BiDi listening on ws://127.0.0.1:47463
+1669104260413	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXJXsCn/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47463/devtools/browser/7c48deff-f9a9-4149-b37a-a193099c96b2
+1669104275165	Marionette	INFO	Stopped listening on port 35459
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669104426337	geckodriver	INFO	Listening on 127.0.0.1:42825
+1669104426890	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33795" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileyGQPnj"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669104427245	Marionette	INFO	Marionette enabled
+1669104427247	Marionette	INFO	Listening on port 35791
+Read port: 35791
+WebDriver BiDi listening on ws://127.0.0.1:33795
+1669104427320	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyGQPnj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33795/devtools/browser/fa461f6c-25f4-4771-8d4a-af37d077dfc1
+1669104429824	Marionette	INFO	Stopped listening on port 35791
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669104508155	geckodriver	INFO	Listening on 127.0.0.1:60211
+1669104508693	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51891" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemyawKv"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669104509037	Marionette	INFO	Marionette enabled
+1669104509039	Marionette	INFO	Listening on port 37481
+Read port: 37481
+WebDriver BiDi listening on ws://127.0.0.1:51891
+1669104509150	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemyawKv/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51891/devtools/browser/1ad505fc-77eb-4c77-9d8d-bad793a0db1c
+1669104514311	Marionette	INFO	Stopped listening on port 37481
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1669104852930	geckodriver	INFO	Listening on 127.0.0.1:45719
+1669104853467	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41105" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileDTTPkW"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669104853848	Marionette	INFO	Marionette enabled
+1669104853851	Marionette	INFO	Listening on port 38341
+Read port: 38341
+WebDriver BiDi listening on ws://127.0.0.1:41105
+1669104853908	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDTTPkW/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41105/devtools/browser/2d715dc8-966f-49bb-9e15-0e70289aa8fa
+1669104855997	Marionette	INFO	Stopped listening on port 38341
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1669112779829	geckodriver	INFO	Listening on 127.0.0.1:56731
+1669112780366	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56535" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile5iMEHn"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669112780729	Marionette	INFO	Marionette enabled
+1669112780731	Marionette	INFO	Listening on port 42621
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 42621
+WebDriver BiDi listening on ws://127.0.0.1:56535
+1669112780804	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5iMEHn/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56535/devtools/browser/4910e27c-171c-4bf3-813a-6ad0253c7934
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+1669112797462	Marionette	INFO	Stopped listening on port 42621
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1669114018498	geckodriver	INFO	Listening on 127.0.0.1:38359
+1669114019038	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54113" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3ebrKX"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669114019423	Marionette	INFO	Marionette enabled
+1669114019425	Marionette	INFO	Listening on port 40463
+Read port: 40463
+WebDriver BiDi listening on ws://127.0.0.1:54113
+1669114019483	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3ebrKX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54113/devtools/browser/2dd91a22-377d-4e70-9708-13f36b2cff69
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1669114270108	geckodriver	INFO	Listening on 127.0.0.1:34951
+1669114270644	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33675" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileo1OB79"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669114271007	Marionette	INFO	Marionette enabled
+1669114271009	Marionette	INFO	Listening on port 34975
+Read port: 34975
+WebDriver BiDi listening on ws://127.0.0.1:33675
+1669114271069	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileo1OB79/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33675/devtools/browser/5375a25c-0898-45e5-a042-144429034d76
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+1669114465064	geckodriver	INFO	Listening on 127.0.0.1:37935
+1669114465619	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52545" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexuzvMw"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669114465960	Marionette	INFO	Marionette enabled
+1669114465962	Marionette	INFO	Listening on port 44367
+Read port: 44367
+WebDriver BiDi listening on ws://127.0.0.1:52545
+1669114466076	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexuzvMw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52545/devtools/browser/ebbe03d6-6b94-4305-9b77-3674553198b5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+[Child 89934, MediaDecoderStateMachine #1] WARNING: Decoder=7f22f9bb9500 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 89934, MediaDecoderStateMachine #1] WARNING: Decoder=7f22f9bb9500 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1669114717935	Marionette	INFO	Stopped listening on port 44367
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1669115208407	geckodriver	INFO	Listening on 127.0.0.1:40575
+1669115208925	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37041" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileyhRaXv"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669115209317	Marionette	INFO	Marionette enabled
+1669115209320	Marionette	INFO	Listening on port 41675
+Read port: 41675
+WebDriver BiDi listening on ws://127.0.0.1:37041
+1669115209387	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyhRaXv/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37041/devtools/browser/5e5d3d67-6506-4777-be7a-3f4eed67c8fb
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+[Child 92382, MediaDecoderStateMachine #1] WARNING: Decoder=7fcacbf37d00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 92382, MediaDecoderStateMachine #1] WARNING: Decoder=7fcacbf37d00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1669115466646	geckodriver	INFO	Listening on 127.0.0.1:60719
+1669115467179	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49791" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilebDT1pq"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669115467570	Marionette	INFO	Marionette enabled
+1669115467574	Marionette	INFO	Listening on port 39689
+Read port: 39689
+WebDriver BiDi listening on ws://127.0.0.1:49791
+1669115467633	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebDT1pq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49791/devtools/browser/3170d922-3748-465c-b23a-bf025a5257c0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+[Child 93503, MediaDecoderStateMachine #1] WARNING: Decoder=7f0f63ce2300 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 93503, MediaDecoderStateMachine #1] WARNING: Decoder=7f0f63ce2300 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1669115480482	Marionette	INFO	Stopped listening on port 41675
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669115483967	Marionette	INFO	Stopped listening on port 39689
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1669115578405	geckodriver	INFO	Listening on 127.0.0.1:58895
+1669115578942	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54325" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilegtsOdl"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669115579299	Marionette	INFO	Marionette enabled
+1669115579302	Marionette	INFO	Listening on port 36569
+Read port: 36569
+WebDriver BiDi listening on ws://127.0.0.1:54325
+1669115579400	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegtsOdl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54325/devtools/browser/d9b8f791-5a9b-4f2a-a276-fc9cb6d33bb7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+[Child 94276, MediaDecoderStateMachine #1] WARNING: Decoder=7f2f9a5daa00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 94276, MediaDecoderStateMachine #1] WARNING: Decoder=7f2f9a5daa00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1669116946462	geckodriver	INFO	Listening on 127.0.0.1:34059
+1669116946998	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47135" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilem8J0sI"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669116947365	Marionette	INFO	Marionette enabled
+1669116947368	Marionette	INFO	Listening on port 43893
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 43893
+WebDriver BiDi listening on ws://127.0.0.1:47135
+1669116947455	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilem8J0sI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47135/devtools/browser/67f0ed4b-71b2-4ea8-9f63-fb300948f9eb
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+[Child 96687, MediaDecoderStateMachine #1] WARNING: Decoder=7f328b9d3000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 96687, MediaDecoderStateMachine #1] WARNING: Decoder=7f328b9d3000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1669117069713	geckodriver	INFO	Listening on 127.0.0.1:44539
+1669117070252	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51223" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSNdVex"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669117070641	Marionette	INFO	Marionette enabled
+1669117070643	Marionette	INFO	Listening on port 46363
+Read port: 46363
+WebDriver BiDi listening on ws://127.0.0.1:51223
+1669117070714	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSNdVex/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51223/devtools/browser/cf4c09cc-fcd9-4c46-ba34-1760abbb80bd
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+[Child 97426, MediaDecoderStateMachine #1] WARNING: Decoder=7f9f9dc1b500 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 97426, MediaDecoderStateMachine #1] WARNING: Decoder=7f9f9dc1b500 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1669117326528	geckodriver	INFO	Listening on 127.0.0.1:57351
+1669117327090	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52285" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilewAnh3q"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669117327468	Marionette	INFO	Marionette enabled
+1669117327470	Marionette	INFO	Listening on port 35169
+Read port: 35169
+WebDriver BiDi listening on ws://127.0.0.1:52285
+1669117327530	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewAnh3q/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52285/devtools/browser/a0c19914-7aaa-4898-8c08-a22deb291417
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+[Child 98442, MediaDecoderStateMachine #1] WARNING: Decoder=7f6f31ff1f00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 98442, MediaDecoderStateMachine #1] WARNING: Decoder=7f6f31ff1f00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1669117621632	geckodriver	INFO	Listening on 127.0.0.1:59845
+1669117622152	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35627" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePQ95pk"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669117622537	Marionette	INFO	Marionette enabled
+1669117622539	Marionette	INFO	Listening on port 44039
+Read port: 44039
+WebDriver BiDi listening on ws://127.0.0.1:35627
+1669117622672	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePQ95pk/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35627/devtools/browser/d271279e-faff-4b71-be69-b0449241c995
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+[Child 99652, MediaDecoderStateMachine #1] WARNING: Decoder=7f13d3ce5200 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 99652, MediaDecoderStateMachine #1] WARNING: Decoder=7f13d3ce5200 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1669117662581	geckodriver	INFO	Listening on 127.0.0.1:48675
+1669117663108	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53257" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilenxCXxE"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669117663543	Marionette	INFO	Marionette enabled
+1669117663545	Marionette	INFO	Listening on port 35847
+WebDriver BiDi listening on ws://127.0.0.1:53257
+Read port: 35847
+1669117663701	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenxCXxE/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53257/devtools/browser/3b675f98-3514-49cb-995f-1a219a8c3570
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+[Child 100253, MediaDecoderStateMachine #1] WARNING: Decoder=7f8353394d00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 100253, MediaDecoderStateMachine #1] WARNING: Decoder=7f8353394d00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1669117724180	geckodriver	INFO	Listening on 127.0.0.1:53933
+1669117724722	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58881" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelXTf2v"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669117725089	Marionette	INFO	Marionette enabled
+1669117725091	Marionette	INFO	Listening on port 42657
+Read port: 42657
+WebDriver BiDi listening on ws://127.0.0.1:58881
+1669117725187	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelXTf2v/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58881/devtools/browser/cfc7aa61-41a1-46e2-911c-16f2b84ee3da
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+[Child 100875, MediaDecoderStateMachine #1] WARNING: Decoder=7f62a6ac1c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 100875, MediaDecoderStateMachine #1] WARNING: Decoder=7f62a6ac1c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 100875, MediaDecoderStateMachine #1] WARNING: Decoder=7f62a74b8700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 100875, MediaDecoderStateMachine #1] WARNING: Decoder=7f62a74b8700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1669117762512	geckodriver	INFO	Listening on 127.0.0.1:35451
+1669117763049	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49237" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileBCBepq"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669117763462	Marionette	INFO	Marionette enabled
+1669117763464	Marionette	INFO	Listening on port 40171
+WebDriver BiDi listening on ws://127.0.0.1:49237
+Read port: 40171
+1669117763620	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBCBepq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49237/devtools/browser/392913b1-e769-4779-ae37-a5ad6d8b0af4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+[Child 101474, MediaDecoderStateMachine #1] WARNING: Decoder=7f9aa3b30600 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 101474, MediaDecoderStateMachine #1] WARNING: Decoder=7f9aa3b30600 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 101474, MediaDecoderStateMachine #1] WARNING: Decoder=7f9aa3037100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 101474, MediaDecoderStateMachine #1] WARNING: Decoder=7f9aa3037100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1669117789521	Marionette	INFO	Stopped listening on port 40171
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1669117819286	Marionette	INFO	Stopped listening on port 42657
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669117822341	Marionette	INFO	Stopped listening on port 35847
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1669117824455	Marionette	INFO	Stopped listening on port 44039
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669117827202	Marionette	INFO	Stopped listening on port 35169
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669117829735	geckodriver	INFO	Listening on 127.0.0.1:38081
+1669117830295	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41977" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGZGWI2"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669117830687	Marionette	INFO	Marionette enabled
+1669117830689	Marionette	INFO	Listening on port 41965
+Read port: 41965
+WebDriver BiDi listening on ws://127.0.0.1:41977
+1669117830792	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGZGWI2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41977/devtools/browser/18d81a51-a9f6-4b5e-a6e2-a8f07d438991
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+[Child 102194, MediaDecoderStateMachine #1] WARNING: Decoder=7fa05e67c600 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 102194, MediaDecoderStateMachine #1] WARNING: Decoder=7fa05e67c600 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 102194, MediaDecoderStateMachine #1] WARNING: Decoder=7fa064331900 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 102194, MediaDecoderStateMachine #1] WARNING: Decoder=7fa064331900 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1669117862268	Marionette	INFO	Stopped listening on port 41965
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1669117921134	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1669117932598	geckodriver	INFO	Listening on 127.0.0.1:54357
+1669117933147	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36205" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQSQeEg"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669117933526	Marionette	INFO	Marionette enabled
+1669117933528	Marionette	INFO	Listening on port 38511
+Read port: 38511
+WebDriver BiDi listening on ws://127.0.0.1:36205
+1669117933618	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQSQeEg/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36205/devtools/browser/3a111e28-1b5b-48f7-97d9-6b8edbfdc5f0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+[Child 102896, MediaDecoderStateMachine #1] WARNING: Decoder=7f761810e100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 102896, MediaDecoderStateMachine #1] WARNING: Decoder=7f761810e100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 102896, MediaDecoderStateMachine #1] WARNING: Decoder=7f761308d300 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 102896, MediaDecoderStateMachine #1] WARNING: Decoder=7f761308d300 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1669118813799	Marionette	INFO	Stopped listening on port 38511
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1669118863451	geckodriver	INFO	Listening on 127.0.0.1:46763
+1669118863995	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47659" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2iqVsF"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669118864342	Marionette	INFO	Marionette enabled
+1669118864344	Marionette	INFO	Listening on port 44079
+Read port: 44079
+WebDriver BiDi listening on ws://127.0.0.1:47659
+1669118864460	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2iqVsF/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47659/devtools/browser/d52e3e7c-638b-45c8-8236-f3e164256492
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+[Child 105526, MediaDecoderStateMachine #1] WARNING: Decoder=7ff8e8946000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 105526, MediaDecoderStateMachine #1] WARNING: Decoder=7ff8e8946000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 105526, MediaDecoderStateMachine #1] WARNING: Decoder=7ff8eedda400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 105526, MediaDecoderStateMachine #1] WARNING: Decoder=7ff8eedda400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1669118880873	Marionette	INFO	Stopped listening on port 44079
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1669118899926	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1669118904226	geckodriver	INFO	Listening on 127.0.0.1:38727
+1669118904767	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37771" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileC1RRtX"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669118905127	Marionette	INFO	Marionette enabled
+1669118905129	Marionette	INFO	Listening on port 43711
+Read port: 43711
+WebDriver BiDi listening on ws://127.0.0.1:37771
+1669118905217	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileC1RRtX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37771/devtools/browser/05e2a20c-8f67-49f4-a0a8-6d79e623e81b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+[Child 106070, MediaDecoderStateMachine #1] WARNING: Decoder=7fe09c05f000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 106070, MediaDecoderStateMachine #1] WARNING: Decoder=7fe09c05f000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 106070, MediaDecoderStateMachine #1] WARNING: Decoder=7fe0a29c8600 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 106070, MediaDecoderStateMachine #1] WARNING: Decoder=7fe0a29c8600 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1669118966560	geckodriver	INFO	Listening on 127.0.0.1:33895
+1669118967111	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52771" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileun56SM"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669118967493	Marionette	INFO	Marionette enabled
+1669118967495	Marionette	INFO	Listening on port 39795
+Read port: 39795
+WebDriver BiDi listening on ws://127.0.0.1:52771
+1669118967603	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileun56SM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52771/devtools/browser/dbdfef68-6a4d-4bb8-b4f2-220a92cce5a8
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+[Child 106763, MediaDecoderStateMachine #1] WARNING: Decoder=7f4f4c745000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 106763, MediaDecoderStateMachine #1] WARNING: Decoder=7f4f4c745000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 106763, MediaDecoderStateMachine #1] WARNING: Decoder=7f4f49263300 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 106763, MediaDecoderStateMachine #1] WARNING: Decoder=7f4f49263300 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+1669119027831	Marionette	INFO	Stopped listening on port 39795
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669119044826	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+[Child 106070, MediaDecoderStateMachine #1] WARNING: Decoder=7fe0ab6b7100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 106070, MediaDecoderStateMachine #1] WARNING: Decoder=7fe0ab6b7100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1669119159043	Marionette	INFO	Stopped listening on port 43711
+1669119187368	geckodriver	INFO	Listening on 127.0.0.1:59611
+1669119187907	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42549" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilembsj4m"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669119188294	Marionette	INFO	Marionette enabled
+1669119188296	Marionette	INFO	Listening on port 43785
+Read port: 43785
+WebDriver BiDi listening on ws://127.0.0.1:42549
+1669119188361	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilembsj4m/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:42549/devtools/browser/7062b50d-d993-4f65-9376-0459e1b5c347
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+[Child 107920, MediaDecoderStateMachine #1] WARNING: Decoder=7f8e0781da00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 107920, MediaDecoderStateMachine #1] WARNING: Decoder=7f8e0781da00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 107920, MediaDecoderStateMachine #1] WARNING: Decoder=7f8e02d5a700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 107920, MediaDecoderStateMachine #1] WARNING: Decoder=7f8e02d5a700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 107920, MediaDecoderStateMachine #1] WARNING: Decoder=7f8df2414200 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 107920, MediaDecoderStateMachine #1] WARNING: Decoder=7f8df2414200 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1669119255743	Marionette	INFO	Stopped listening on port 43785
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669119721786	geckodriver	INFO	Listening on 127.0.0.1:36433
+1669119722323	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56501" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileCmX3FM"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669119722666	Marionette	INFO	Marionette enabled
+1669119722668	Marionette	INFO	Listening on port 44181
+Read port: 44181
+WebDriver BiDi listening on ws://127.0.0.1:56501
+1669119722762	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCmX3FM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56501/devtools/browser/aa316053-499a-48c9-a3f1-a53bade9b7e3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+[Child 109273, MediaDecoderStateMachine #1] WARNING: Decoder=7f58c1ddad00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 109273, MediaDecoderStateMachine #1] WARNING: Decoder=7f58c1ddad00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1669119831617	geckodriver	INFO	Listening on 127.0.0.1:55915
+1669119832152	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50495" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile0lSn54"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669119832522	Marionette	INFO	Marionette enabled
+1669119832524	Marionette	INFO	Listening on port 44583
+Read port: 44583
+WebDriver BiDi listening on ws://127.0.0.1:50495
+1669119832587	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0lSn54/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50495/devtools/browser/6cb03ee5-0579-4006-b447-ad03ad2ec0f9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+[Child 110074, MediaDecoderStateMachine #1] WARNING: Decoder=7fce3fff4500 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 110074, MediaDecoderStateMachine #1] WARNING: Decoder=7fce3fff4500 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1669119871916	geckodriver	INFO	Listening on 127.0.0.1:56379
+1669119872455	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54599" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile1gJIQs"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669119872819	Marionette	INFO	Marionette enabled
+1669119872821	Marionette	INFO	Listening on port 40865
+Read port: 40865
+WebDriver BiDi listening on ws://127.0.0.1:54599
+1669119872917	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1gJIQs/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54599/devtools/browser/8346c2d2-4e2a-46b6-929d-ed8e4d75384f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+[Child 110630, MediaDecoderStateMachine #1] WARNING: Decoder=7f9ad212b200 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 110630, MediaDecoderStateMachine #1] WARNING: Decoder=7f9ad212b200 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 110630, MediaDecoderStateMachine #1] WARNING: Decoder=7f9ad7e66400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 110630, MediaDecoderStateMachine #1] WARNING: Decoder=7f9ad7e66400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+1669119940283	Marionette	INFO	Stopped listening on port 40865
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669119942376	Marionette	INFO	Stopped listening on port 44583
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1669121612452	geckodriver	INFO	Listening on 127.0.0.1:40909
+1669121612991	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40491" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezywxdz"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1669121613452	Marionette	INFO	Marionette enabled
+1669121613455	Marionette	INFO	Listening on port 36879
+Read port: 36879
+WebDriver BiDi listening on ws://127.0.0.1:40491
+1669121613527	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezywxdz/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:40491/devtools/browser/5d2e9f87-27c7-4868-b4df-392242a26a57
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ok.ru."
+[Child 115756, MediaDecoderStateMachine #1] WARNING: Decoder=7f4b75b4cf00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 115756, MediaDecoderStateMachine #1] WARNING: Decoder=7f4b75b4cf00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 115756, MediaDecoderStateMachine #1] WARNING: Decoder=7f4b71b41400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 115756, MediaDecoderStateMachine #1] WARNING: Decoder=7f4b71b41400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+[Child 115756, MediaDecoderStateMachine #1] WARNING: Decoder=7f4b763c9300 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 115756, MediaDecoderStateMachine #1] WARNING: Decoder=7f4b763c9300 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+[Child 115756, MediaDecoderStateMachine #1] WARNING: Decoder=7f4b752c0b00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 115756, MediaDecoderStateMachine #1] WARNING: Decoder=7f4b752c0b00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 115756, MediaDecoderStateMachine #1] WARNING: Decoder=7f4b763c8d00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 115756, MediaDecoderStateMachine #1] WARNING: Decoder=7f4b763c8d00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1669121774860	Marionette	INFO	Stopped listening on port 36879
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669121774957	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+[2022-11-22T12:56:15Z ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }

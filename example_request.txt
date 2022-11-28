@@ -1,0 +1,27 @@
+Запрос для выполнения действий ()
+Все поля могут быть None
+[
+  {
+    "login": "login", 
+    "target_id": 600191655441,
+    "comment": "comment"
+  }
+]
+
+Запрос на добавления аккаунтов
+[
+  {
+    "name": "Toster",
+    "login": "89000778443",
+    "password": "f4k3p4ssw0rd",
+    "comment": "string",
+    "target_id": 595729467671
+  },
+  {
+    "name": "Mark",             
+    "login": "890007784343",
+    "password": "f4k3p4ssw0rd",
+    "comment": "string",
+    "target_id": 595729467671
+  }
+]
