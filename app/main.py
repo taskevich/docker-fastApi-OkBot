@@ -143,15 +143,15 @@ async def comment_posts(actions: List[ActionSchemaComment], db: Session = Depend
                         
             for id, driver in dict_bots.items():
                 events.create_log(str(id), 'comment post', db)
-                image_bytes = driver.create_comment_in_user_profile(action.target_id, action.comment)
-
-                for idx, image in enumerate(image_bytes):
-                    random_name = random.randint(0, 10000)
-                    file = open(f'.{PATH_TO_SRC}/{id}_{random_name}_comment.png', 'wb')
-                    file.write(image)
-                    file.close()
-                
-                screenshots = await create_urls_for_image(id)
+                # image_bytes = driver.create_comment_in_user_profile(action.target_id, action.comment)
+                driver.create_comment_in_user_profile(action.target_id, action.comment)
+                # for idx, image in enumerate(image_bytes):
+                #     random_name = random.randint(0, 10000)
+                #     file = open(f'.{PATH_TO_SRC}/{id}_{random_name}_comment.png', 'wb')
+                #     file.write(image)
+                #     file.close()
+                #
+                # screenshots = await create_urls_for_image(id)
                 
                 results.append(DefaultResponse(
                     status='Успешно',
@@ -263,14 +263,27 @@ async def delete_accounts(actions: List[ActionSchemaBase], db: Session = Depends
             )
         )
         return Responses(results=results)
-    
 
-@app.get('/get_logs/{bot_login}', response_class=FileResponse)
-async def get_logs(bot_login: str, db: Session = Depends(get_db)):
+
+@app.get('/get_screenshot/{bot_login}', response_class=FileResponse)
+async def get_screenshot(bot_login: str, db: Session = Depends(get_db)):
     bot_id = accounts.get_account_by_login(db, bot_login).id
-    return FileResponse(f'./app/logs/{bot_id}_screenshots.txt')
 
-
-@app.get('/detail_screenshot/{file_name}', response_class=FileResponse)
-async def detail_screenshot(file_name: str):
+    if dict_bots[bot_id]:
+        img_bytes = dict_bots[bot_id].driver.get_screenshot_as_png()
+        file_name = f'{bot_id}_{random.randint(0, 100000)}.png'
+        with open(f'.{PATH_TO_SRC}/{file_name}', 'wb') as image:
+            image.write(img_bytes)
+        image.close()
     return FileResponse(f'.{PATH_TO_SRC}/{file_name}')
+
+
+# @app.get('/get_logs/{bot_login}', response_class=FileResponse)
+# async def get_logs(bot_login: str, db: Session = Depends(get_db)):
+#     bot_id = accounts.get_account_by_login(db, bot_login).id
+#     return FileResponse(f'./app/logs/{bot_id}_screenshots.txt')
+#
+#
+# @app.get('/detail_screenshot/{file_name}', response_class=FileResponse)
+# async def detail_screenshot(file_name: str):
+#     return FileResponse(f'.{PATH_TO_SRC}/{file_name}')

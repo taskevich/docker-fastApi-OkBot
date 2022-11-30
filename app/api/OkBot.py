@@ -24,7 +24,7 @@ class Bot():
         chrome_options.add_argument('--headless')
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument('--disable-dev-shm-usage')
-        chrome_options.add_argument("--window-size=800,600")
+        chrome_options.add_argument("--window-size=1366,768")
         
         driver = webdriver.Chrome('/usr/bin/chromedriver', chrome_options=chrome_options)
         wait = WebDriverWait(driver, 2)
@@ -86,7 +86,7 @@ class Bot():
         """
         ids = [ids]
 
-        imgs_bytes = []
+        # imgs_bytes = []
         
         for _id in ids:
             self.driver.get(self.__base_url + f'profile/{_id}')
@@ -106,12 +106,11 @@ class Bot():
                 except Exception as _:
                     pass
                 
-                self.driver.find_element(By.XPATH, '//*[@id="ok-e-d"]').send_keys(comment)
-                self.driver.find_element(By.CSS_SELECTOR, '#ok-e-d').send_keys(Keys.RETURN)
+                # self.driver.find_element(By.XPATH, '//*[@id="ok-e-d"]').send_keys(comment)
+                # self.driver.find_element(By.CSS_SELECTOR, '#ok-e-d').send_keys(Keys.RETURN)
 
-                imgs_bytes.append(self.driver.get_screenshot_as_png())
-                
-        return imgs_bytes
+                # imgs_bytes.append(self.driver.get_screenshot_as_png())
+        # return imgs_bytes
 
 
     def like_users(self, ids: int | list):
