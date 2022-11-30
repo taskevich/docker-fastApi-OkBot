@@ -90,23 +90,36 @@ class Bot():
         for _id in ids:
             self.driver.get(self.__base_url + f'profile/{_id}')
             self.__scroll()
+            # div.feed_f > ul:nth-child(1) > li:nth-child(1) > div:nth-child(1) > a:nth-child(1)
+            # div.feed-w > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(1) > div:nth-child(1) > a:nth-child(1)
 
-            elements = self.driver.find_elements(
-                By.CSS_SELECTOR,
-                'div.feed-w > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(1) > div:nth-child(1) > a:nth-child(1)'
-                )
+            elements1 = self.driver.find_elements(
+                By.CSS_SELECTOR, 'div.feed-w > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(1) > div:nth-child(1) > a:nth-child(1)'
+            )
+            elements2 = self.driver.find_elements(
+                By.CSS_SELECTOR, 'div.feed_f > ul:nth-child(1) > li:nth-child(1) > div:nth-child(1) > a:nth-child(1)'
+            )
+
+            elements =[*elements1, *elements2]
+
             urls = [element.get_attribute('href') for element in elements]
-
+            print(urls)
             for url in urls:
                 self.driver.get(url)
+
                 try:
                     self.driver.find_element(By.CSS_SELECTOR, 
                                             '.gwt-inputButton').click()
                 except Exception as _:
                     pass
-                
-                self.driver.find_element(By.XPATH, '//*[@id="ok-e-d"]').send_keys(comment)
-                self.driver.find_element(By.CSS_SELECTOR, '#ok-e-d').send_keys(Keys.RETURN)
+
+                self.wait.until(EC.visibility_of_element_located(
+                    (By.CSS_SELECTOR, '#ok-e-d'))).send_keys(comment)
+                self.wait.until(EC.visibility_of_element_located(
+                    (By.CSS_SELECTOR, '#ok-e-d_button'))).click()
+
+                # self.driver.find_element(By.CSS_SELECTOR, '#ok-e-d').send_keys(comment)
+                # self.driver.find_element(By.CSS_SELECTOR, '#ok-e-d_button').click()
 
                 # imgs_bytes.append(self.driver.get_screenshot_as_png())
         # return imgs_bytes
