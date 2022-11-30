@@ -175,7 +175,7 @@ async def create_urls_for_image(id: str):
 
     pattern = f'{id}_'
     for root, dirs, files in os.walk('.'+PATH_TO_SRC):
-            with open(f'.{PATH_TO_LOGS}/{id}_screenshots.txt', 'w+', encoding='utf-8') as image:
+            with open(f'.{PATH_TO_SRC}/{id}_screenshots.txt', 'w+', encoding='utf-8') as image:
                 for file in files:
                     if pattern == file[:2]:
                         image.write(f'http://localhost:8000/get_screenshot/{file}\n')
@@ -268,6 +268,9 @@ async def delete_accounts(actions: List[ActionSchemaBase], db: Session = Depends
 @app.get('/get_screenshot/{bot_login}', response_class=FileResponse)
 async def get_screenshot(bot_login: str, db: Session = Depends(get_db)):
     bot_id = accounts.get_account_by_login(db, bot_login).id
+
+    if not os.path.exists(f'.{PATH_TO_SRC}'):
+        os.mkdir('.'+PATH_TO_SRC)
 
     if dict_bots[bot_id]:
         img_bytes = dict_bots[bot_id].driver.get_screenshot_as_png()
