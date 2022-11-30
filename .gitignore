@@ -1,0 +1,15 @@
+app/db/__pycache__/models.cpython-310.pyc
+app/db/__pycache__/schemas.cpython-310.pyc
+app/src/image_1_0_comment.png
+app/src/image_1_1_comment.png
+app/src/image_1_2_comment.png
+app/src/image_1_3_comment.png
+app/src/image_1_4_comment.png
+app/src/image_1_5_comment.png
+app/api/__pycache__/OkBot.cpython-310.pyc
+app/api/__pycache__/accounts.cpython-310.pyc
+app/api/__pycache__/events.cpython-310.pyc
+app/core/__pycache__/config.cpython-310.pyc
+app/__pycache__/main.cpython-310.pyc
+app/screenshots.txt
+example_request.txt
