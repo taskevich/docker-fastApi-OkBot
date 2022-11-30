@@ -5,11 +5,13 @@ from .api import OkBot, accounts, events
 from .core.config import engine, get_db
 from sqlalchemy.orm import Session
 from .db import models
-from .db.schemas import BotSchema, ActionSchema, ActionSchemaBase, ActionSchemaComment, DefaultResponse, Responses, ResponsesComment, DefaultResponseComment
+from .db.schemas import BotSchema, ActionSchema, ActionSchemaBase, ActionSchemaComment, DefaultResponse, Responses
 from typing import List
 import os
+import random
 
 PATH_TO_SRC = os.path.abspath('src')
+PATH_TO_LOGS = os.path.abspath('logs')
 
 models.Base.metadata.create_all(bind=engine)
 templates = Jinja2Templates(directory='./app/templates')
@@ -121,7 +123,7 @@ async def like_posts(actions: List[ActionSchema], db: Session = Depends(get_db))
         return Responses(results=results)
 
 
-@app.post('/comment-posts', response_model=ResponsesComment)
+@app.post('/comment-posts', response_model=Responses)
 async def comment_posts(actions: List[ActionSchemaComment], db: Session = Depends(get_db)):
     """
     Создание коментариев под посты пользователя
@@ -131,7 +133,7 @@ async def comment_posts(actions: List[ActionSchemaComment], db: Session = Depend
     if dict_bots:
         for action in actions:
             if (action.target_id is None) or (action.comment is None):
-                results.append(DefaultResponseComment(
+                results.append(DefaultResponse(
                     login=action.login,
                     status='Ошибка',
                     msg='Не все данные заполнены',
@@ -142,41 +144,44 @@ async def comment_posts(actions: List[ActionSchemaComment], db: Session = Depend
             for id, driver in dict_bots.items():
                 events.create_log(str(id), 'comment post', db)
                 image_bytes = driver.create_comment_in_user_profile(action.target_id, action.comment)
-                                
+
                 for idx, image in enumerate(image_bytes):
-                    file = open(f'.{PATH_TO_SRC}/image_{id}_{idx}_comment.png', 'wb')
+                    random_name = random.randint(0, 10000)
+                    file = open(f'.{PATH_TO_SRC}/{id}_{random_name}_comment.png', 'wb')
                     file.write(image)
                     file.close()
                 
-                screenshots = await create_urls_for_image()
+                screenshots = await create_urls_for_image(id)
                 
-                results.append(DefaultResponseComment(
+                results.append(DefaultResponse(
                     status='Успешно',
                     msg='Комментарии написаны',
-                    results=screenshots,
                 ))
             
                 
-        return ResponsesComment(results=results)
+        return Responses(results=results)
     else:
         results.append(
-            DefaultResponseComment(
+            DefaultResponse(
                 status='Ошибка',
                 msg='Нет аккаунтов',
             )
         )
-        return ResponsesComment(results=results)
+        return Responses(results=results)
     
     
-async def create_urls_for_image():
+async def create_urls_for_image(id: str):
     urls = []
+
+    pattern = f'{id}_'
     for root, dirs, files in os.walk('.'+PATH_TO_SRC):
-            with open('./app/screenshots.txt', 'w+', encoding='utf-8') as image:
+            with open(f'.{PATH_TO_LOGS}/{id}_screenshots.txt', 'w+', encoding='utf-8') as image:
                 for file in files:
-                        urls.append(f'http://localhost:8000/get_screenshot/{file}\n')    
+                    if pattern == file[:2]:
+                        image.write(f'http://localhost:8000/get_screenshot/{file}\n')
+                        urls.append(f'http://localhost:8000/get_screenshot/{file}')
             image.close()
     return urls
-    
 
 @app.post('/create-posts', response_model=DefaultResponse)
 async def create_posts(actions: List[ActionSchemaComment], db: Session = Depends(get_db)):
@@ -260,6 +265,12 @@ async def delete_accounts(actions: List[ActionSchemaBase], db: Session = Depends
         return Responses(results=results)
     
 
-@app.get('/get_screenshot/{screen}', response_class=FileResponse)
-async def get_screenshot(screen: str):
-    return '.'+PATH_TO_SRC+f'/{screen}'
+@app.get('/get_logs/{bot_login}', response_class=FileResponse)
+async def get_logs(bot_login: str, db: Session = Depends(get_db)):
+    bot_id = accounts.get_account_by_login(db, bot_login).id
+    return FileResponse(f'./app/logs/{bot_id}_screenshots.txt')
+
+
+@app.get('/detail_screenshot/{file_name}', response_class=FileResponse)
+async def detail_screenshot(file_name: str):
+    return FileResponse(f'.{PATH_TO_SRC}/{file_name}')

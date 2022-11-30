@@ -23,7 +23,6 @@ class ActionSchema(ActionSchemaBase):
     
 class ActionSchemaComment(ActionSchema):
     comment: str
-    screenshots: List[str] = None
 
 
 class DefaultResponse(BaseModel):
@@ -31,13 +30,6 @@ class DefaultResponse(BaseModel):
     msg: Optional[str]
 
 
-class DefaultResponseComment(DefaultResponse):
-    results: List[str] = None
-
-
 class Responses(BaseModel):
     results: List[DefaultResponse]
-    
-    
-class ResponsesComment(BaseModel):
-    results: List[DefaultResponseComment]
+

@@ -94,10 +94,10 @@ class Bot():
 
             elements = self.driver.find_elements(
                 By.CSS_SELECTOR,
-                'div.feed-w > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(1) > div:nth-child(1) > a:nth-child(1)'
+                'div.feed-w > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(1) > div:nth-child(1) > a:nth-child(1)'
                 )
             urls = [element.get_attribute('href') for element in elements]
-            
+
             for url in urls:
                 self.driver.get(url)
                 try:
