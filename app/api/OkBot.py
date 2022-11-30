@@ -106,8 +106,8 @@ class Bot():
                 except Exception as _:
                     pass
                 
-                # self.driver.find_element(By.XPATH, '//*[@id="ok-e-d"]').send_keys(comment)
-                # self.driver.find_element(By.CSS_SELECTOR, '#ok-e-d').send_keys(Keys.RETURN)
+                self.driver.find_element(By.XPATH, '//*[@id="ok-e-d"]').send_keys(comment)
+                self.driver.find_element(By.CSS_SELECTOR, '#ok-e-d').send_keys(Keys.RETURN)
 
                 imgs_bytes.append(self.driver.get_screenshot_as_png())
                 
