@@ -11,7 +11,7 @@ import os
 import random
 
 PATH_TO_SRC = os.path.abspath('src')
-PATH_TO_LOGS = os.path.abspath('logs')
+# PATH_TO_LOGS = os.path.abspath('logs')
 
 models.Base.metadata.create_all(bind=engine)
 templates = Jinja2Templates(directory='./app/templates')
@@ -208,7 +208,7 @@ async def create_posts(actions: List[ActionSchemaComment], db: Session = Depends
                 with open(f'./app/src/image_{id}_create_post.png', 'wb') as image:
                     image.write(image_bytes)
                 
-                screenshots = await create_urls_for_image()    
+                screenshots = await create_urls_for_image()
                     
                 results.append(DefaultResponse(
                     login=action.login,
