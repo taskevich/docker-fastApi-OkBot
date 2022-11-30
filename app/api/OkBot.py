@@ -65,7 +65,6 @@ class Bot():
             sleep(1)
             i += 1
 
-
     def create_post(self, comment):
         """
         Метод создания поста
