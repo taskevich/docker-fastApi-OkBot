@@ -29,7 +29,3 @@ class DefaultResponse(BaseModel):
     status: Optional[str]
     msg: Optional[str]
 
-
-class Responses(BaseModel):
-    results: List[DefaultResponse]
-
