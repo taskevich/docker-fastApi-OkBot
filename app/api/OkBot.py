@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-class Bot():
+class Bot:
     def __init__(self, login, password) -> None:
         self.__base_url = 'https://ok.ru/'
         self.__login = login
