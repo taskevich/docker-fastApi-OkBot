@@ -112,7 +112,7 @@ def comment_posts(action: ActionSchemaComment, db: Session = Depends(get_db)):
 
         for id, driver in dict_bots.items():
             events.create_log(str(id), 'comment post', db)
-            asyncio.run(driver.create_comment_in_user_profile(action.target_id, action.comment))
+            driver.create_comment_in_user_profile(action.target_id, action.comment)
 
         return DefaultResponse(
             status='Успешно',
@@ -199,6 +199,7 @@ def get_screenshot(bot_login: str, db: Session = Depends(get_db)):
         img_bytes = dict_bots[bot_id].driver.get_screenshot_as_png()
     return Response(content=img_bytes, media_type='image/png')
 
+
 def gen(bot_id: int) -> Generator:
     while True:
         frame = dict_bots[bot_id].driver.get_screenshot_as_png()
@@ -215,15 +216,3 @@ def live_screen(bot_login: str, db: Session = Depends(get_db)):
             status='Ошибка',
             msg='Нет аккаунта, либо он не активен.',
         )
-
-
-
-# @app.get('/get_logs/{bot_login}', response_class=FileResponse)
-# async def get_logs(bot_login: str, db: Session = Depends(get_db)):
-#     bot_id = accounts.get_account_by_login(db, bot_login).id
-#     return FileResponse(f'./app/logs/{bot_id}_screenshots.txt')
-#
-#
-# @app.get('/detail_screenshot/{file_name}', response_class=FileResponse)
-# async def detail_screenshot(file_name: str):
-#     return FileResponse(f'.{PATH_TO_SRC}/{file_name}')
