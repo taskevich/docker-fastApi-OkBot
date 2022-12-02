@@ -2,7 +2,6 @@ import os
 
 from fastapi import FastAPI, Depends
 from fastapi.responses import StreamingResponse, Response
-from fastapi.templating import Jinja2Templates
 from sqlalchemy.orm import Session
 from typing import Generator
 
@@ -15,7 +14,6 @@ from db.schemas import BotSchema, ActionSchema, ActionSchemaBase, ActionSchemaCo
 PATH_TO_SRC = os.path.abspath('src')
 
 models.Base.metadata.create_all(bind=engine)
-templates = Jinja2Templates(directory='./app/templates')
 app = FastAPI()
 dict_bots = {}
 
