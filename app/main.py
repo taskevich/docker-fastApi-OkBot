@@ -1,17 +1,19 @@
-from fastapi import FastAPI, Depends
-from fastapi.responses import FileResponse, Response
+import os
+
+from fastapi import FastAPI, Depends, HTTPException
+from fastapi.responses import StreamingResponse, Response
 from fastapi.templating import Jinja2Templates
+from sqlalchemy.orm import Session
+from typing import Generator
+from time import  sleep
+
 from .api import OkBot, accounts, events
 from .core.config import engine, get_db
-from sqlalchemy.orm import Session
 from .db import models
 from .db.schemas import BotSchema, ActionSchema, ActionSchemaBase, ActionSchemaComment, DefaultResponse
-from typing import List
-import os
-import random
+
 
 PATH_TO_SRC = os.path.abspath('src')
-# PATH_TO_LOGS = os.path.abspath('logs')
 
 models.Base.metadata.create_all(bind=engine)
 templates = Jinja2Templates(directory='./app/templates')
@@ -187,7 +189,7 @@ async def delete_account(action: ActionSchemaBase, db: Session = Depends(get_db)
         )
 
 
-@app.get('/get_screenshot/{bot_login}', responses={200: {"content": {"image/png": {}}}})
+@app.get('/get_screenshot/{bot_login}')
 async def get_screenshot(bot_login: str, db: Session = Depends(get_db)):
     bot_id = accounts.get_account_by_login(db, bot_login).id
 
@@ -196,7 +198,26 @@ async def get_screenshot(bot_login: str, db: Session = Depends(get_db)):
 
     if dict_bots[bot_id]:
         img_bytes = dict_bots[bot_id].driver.get_screenshot_as_png()
-    return Response(content=img_bytes, media_type="image/png")
+    return Response(content=img_bytes, media_type='image/png')
+
+async def gen(bot_id: int) -> Generator:
+    while True:
+        frame = dict_bots[bot_id].driver.get_screenshot_as_png()
+        yield (b'--frame\r\n'b'Content-Type: image/png\r\n\r\n' + frame + b'\r\n')
+
+
+@app.get('/live_screenshot/{bot_login}')
+async def live_screen(bot_login: str, db: Session = Depends(get_db)):
+    bot_id = accounts.get_account_by_login(db, bot_login).id
+    if dict_bots[bot_id]:
+        return StreamingResponse(gen(bot_id), media_type='multipart/x-mixed-replace; boundary=frame')
+    else:
+        return DefaultResponse(
+            status='Ошибка',
+            msg='Нет аккаунта, либо он не активен.',
+        )
+
+
 
 # @app.get('/get_logs/{bot_login}', response_class=FileResponse)
 # async def get_logs(bot_login: str, db: Session = Depends(get_db)):
