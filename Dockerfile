@@ -27,7 +27,6 @@ RUN CHROMEDRIVER_VERSION=`curl -sS chromedriver.storage.googleapis.com/LATEST_RE
     rm $CHROME_SETUP
 
 
-EXPOSE 8000
 WORKDIR ./app
 COPY ./app ./app
 

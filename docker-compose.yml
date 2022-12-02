@@ -12,16 +12,17 @@ services:
       - db
 
   db:
-    image: postgres
+    container_name: 'db'
+    image: postgres:14
     restart: always
     volumes:
-      - postgres_data:/var/lib/postgresql/data/
+      - postgres_data_two:/var/lib/postgresql/data/
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_DB=db_ok
-    ports: 
+    ports:
       - 5432:5432
 
 volumes:
-  postgres_data:
+  postgres_data_two:

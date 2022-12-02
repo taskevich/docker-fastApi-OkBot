@@ -1,7 +1,6 @@
 from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 
 from selenium.webdriver.support.ui import WebDriverWait
@@ -104,11 +103,11 @@ class Bot():
                 except Exception as _:
                     pass
 
-                self.wait.until(EC.visibility_of_element_located(
-                    (By.CSS_SELECTOR, '#ok-e-d'))).send_keys(comment)
-
-                self.wait.until(EC.visibility_of_element_located(
-                    (By.CSS_SELECTOR, '#ok-e-d_button'))).click()
+                # self.wait.until(EC.visibility_of_element_located(
+                #     (By.CSS_SELECTOR, '#ok-e-d'))).send_keys(comment)
+                #
+                # self.wait.until(EC.visibility_of_element_located(
+                #     (By.CSS_SELECTOR, '#ok-e-d_button'))).click()
 
     def like_users(self, ids: int | list):
         """

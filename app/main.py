@@ -1,11 +1,10 @@
 import os
 
-from fastapi import FastAPI, Depends, HTTPException
+from fastapi import FastAPI, Depends
 from fastapi.responses import StreamingResponse, Response
 from fastapi.templating import Jinja2Templates
 from sqlalchemy.orm import Session
 from typing import Generator
-from time import  sleep
 
 from .api import OkBot, accounts, events
 from .core.config import engine, get_db
@@ -33,18 +32,18 @@ def active_all_accounts():
 
 
 @app.on_event('startup')
-async def on_startup():
+def on_startup():
     active_all_accounts()
 
 
 @app.get('/get_accounts')
-async def get_accounts():
+def get_accounts():
     _accounts = accounts.get_all_accounts()
     return _accounts
 
 
 @app.post('/create-bot', response_model=DefaultResponse)
-async def create_bot(_bot: BotSchema, db: Session = Depends(get_db)):
+def create_bot(_bot: BotSchema, db: Session = Depends(get_db)):
     """
     Функция добавления аккаунтов
     """
@@ -73,7 +72,7 @@ async def create_bot(_bot: BotSchema, db: Session = Depends(get_db)):
 
 
 @app.post('/like-posts', response_model=DefaultResponse)
-async def like_posts(action: ActionSchema, db: Session = Depends(get_db)):
+def like_posts(action: ActionSchema, db: Session = Depends(get_db)):
     """
     Функция для лайков под посты
     """
@@ -100,7 +99,7 @@ async def like_posts(action: ActionSchema, db: Session = Depends(get_db)):
 
 
 @app.post('/comment-posts', response_model=DefaultResponse)
-async def comment_posts(action: ActionSchemaComment, db: Session = Depends(get_db)):
+def comment_posts(action: ActionSchemaComment, db: Session = Depends(get_db)):
     """
     Создание коментариев под посты пользователя
     """
@@ -113,7 +112,7 @@ async def comment_posts(action: ActionSchemaComment, db: Session = Depends(get_d
 
         for id, driver in dict_bots.items():
             events.create_log(str(id), 'comment post', db)
-            driver.create_comment_in_user_profile(action.target_id, action.comment)
+            asyncio.run(driver.create_comment_in_user_profile(action.target_id, action.comment))
 
         return DefaultResponse(
             status='Успешно',
@@ -141,7 +140,7 @@ async def create_urls_for_image(id: str):
 
 
 @app.post('/create-posts', response_model=DefaultResponse)
-async def create_posts(action: ActionSchemaComment, db: Session = Depends(get_db)):
+def create_posts(action: ActionSchemaComment, db: Session = Depends(get_db)):
     """
     Создания постов в профиле
     """
@@ -190,7 +189,7 @@ async def delete_account(action: ActionSchemaBase, db: Session = Depends(get_db)
 
 
 @app.get('/get_screenshot/{bot_login}')
-async def get_screenshot(bot_login: str, db: Session = Depends(get_db)):
+def get_screenshot(bot_login: str, db: Session = Depends(get_db)):
     bot_id = accounts.get_account_by_login(db, bot_login).id
 
     if not os.path.exists(f'.{PATH_TO_SRC}'):
@@ -200,14 +199,14 @@ async def get_screenshot(bot_login: str, db: Session = Depends(get_db)):
         img_bytes = dict_bots[bot_id].driver.get_screenshot_as_png()
     return Response(content=img_bytes, media_type='image/png')
 
-async def gen(bot_id: int) -> Generator:
+def gen(bot_id: int) -> Generator:
     while True:
         frame = dict_bots[bot_id].driver.get_screenshot_as_png()
         yield (b'--frame\r\n'b'Content-Type: image/png\r\n\r\n' + frame + b'\r\n')
 
 
 @app.get('/live_screenshot/{bot_login}')
-async def live_screen(bot_login: str, db: Session = Depends(get_db)):
+def live_screen(bot_login: str, db: Session = Depends(get_db)):
     bot_id = accounts.get_account_by_login(db, bot_login).id
     if dict_bots[bot_id]:
         return StreamingResponse(gen(bot_id), media_type='multipart/x-mixed-replace; boundary=frame')
