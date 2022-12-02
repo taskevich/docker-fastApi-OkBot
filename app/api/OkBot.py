@@ -48,7 +48,6 @@ class Bot():
 
         return True
 
-
     def __scroll(self):
         """
         Метод для прокрутки страницы
@@ -62,7 +61,6 @@ class Bot():
             sleep(1)
             i += 1
 
-
     def create_post(self, comment):
         """
         Метод создания поста
@@ -73,7 +71,6 @@ class Bot():
         self.wait.until(EC.visibility_of_element_located(
             (By.CSS_SELECTOR, '.posting_submit'))).click()
         self.driver.get(self.__base_url)
-
 
     def create_comment_in_user_profile(self, ids, comment):
         """
@@ -111,7 +108,6 @@ class Bot():
 
                 self.wait.until(EC.visibility_of_element_located(
                     (By.CSS_SELECTOR, '#ok-e-d_button'))).click()
-
 
     def like_users(self, ids: int | list):
         """

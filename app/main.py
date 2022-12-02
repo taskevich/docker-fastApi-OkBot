@@ -6,10 +6,10 @@ from fastapi.templating import Jinja2Templates
 from sqlalchemy.orm import Session
 from typing import Generator
 
-from .api import OkBot, accounts, events
-from .core.config import engine, get_db
-from .db import models
-from .db.schemas import BotSchema, ActionSchema, ActionSchemaBase, ActionSchemaComment, DefaultResponse
+from api import OkBot, accounts, events
+from core.config import engine, get_db
+from db import models
+from db.schemas import BotSchema, ActionSchema, ActionSchemaBase, ActionSchemaComment, DefaultResponse
 
 
 PATH_TO_SRC = os.path.abspath('src')
